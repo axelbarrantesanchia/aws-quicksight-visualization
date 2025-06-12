@@ -121,6 +121,7 @@ Haz clic en **Sign up for QuickSight** (es gratis por 30 días).
 ## Paso 13: Llenar Contact Information
 
 Usa tu correo de AWS. Método de autenticación: déjalo por defecto.
+<!-- -------------------------------------------------- -->
 Escoge la misma región que estás utilizando en tu consola de AWS.
 
 ![Paso 13](quicksight-pasos/paso14a.png)
@@ -130,6 +131,7 @@ Escoge la misma región que estás utilizando en tu consola de AWS.
 ## Paso 14: Nombre y permisos
 
 En `QuickSight account name`, coloca tu nombre + “-Quicksight”.  
+<!-- -------------------------------------------------- -->
 Activa solo S3 y **selecciona el bucket creado**.
 
 ![Paso 14](quicksight-pasos/paso14.png)
@@ -179,9 +181,13 @@ En el menú lateral, selecciona **Datasets**.
 ## Paso 21: Crear nuevo Dataset
 
 Haz clic en **Create new dataset**.
+<!-- -------------------------------------------------- -->
 Escoge S3 entre las fuentes disponibles.
+<!-- -------------------------------------------------- -->
 Data source name: `Kaggle-netflix-data`.
+<!-- -------------------------------------------------- -->
 Copia y pega el URI de `manifest.json`.
+<!-- -------------------------------------------------- -->
 
 ![Paso 21](quicksight-pasos/paso20.png)
 ![Paso 21](quicksight-pasos/paso21.png)
@@ -254,9 +260,10 @@ Arrástralo a la sección de **Group/Color**.
 
 ## Paso 30: Explicación de QuickSight
 
-Ahora puedes ver por tipo (`Movie` o `TV Show`) y por año.  
+Ahora puedes ver por tipo (`Movie` o `TV Show`) y por año. 
+<!-- -------------------------------------------------- -->
 QuickSight es una herramienta de BI (Business Intelligence) de AWS que permite transformar datos crudos en dashboards interactivos para tomar decisiones basadas en datos.
-
+<!-- -------------------------------------------------- -->
 ![Paso 30](quicksight-pasos/paso30.png)
 
 ---
@@ -286,7 +293,9 @@ Verás muchos valores vacíos.
 ## Paso 34: Notar datos incompletos
 
 Para un mejor análisis se necesita información más completa.  
+<!-- -------------------------------------------------- -->
 El archivo original `netflix_titles.csv` **no contiene todos los campos con datos completos**, y por eso el campo `country` aparece con muchos valores vacíos.  
+<!-- -------------------------------------------------- -->
 Es necesario **añadir un archivo actualizado** que incluya esta información para mejorar la calidad del análisis.
 
 
@@ -333,6 +342,7 @@ Vuelve a la pestaña donde está QuickSight.
 ## Paso 40: QuickSight muestra aviso "Import complete"
 
 Verás una notificación de **"Import complete"** en QuickSight, indicando que los nuevos datos del bucket S3 fueron cargados exitosamente.  
+<!-- -------------------------------------------------- -->
 **Sin embargo**, esto **no actualiza automáticamente** los datos que ya están siendo utilizados en los dashboards. Aún se requiere una acción manual para reflejar los cambios en los análisis.
 
 ![Paso 40](quicksight-pasos/paso39.png)
@@ -358,7 +368,9 @@ Toca los tres puntos > Edit.
 ## Paso 43: Ver nuevos datos reflejados
 
 Ahora el campo `country` tiene mejor información.  
-Dentro del modo de edición del dataset, **sí se reflejan los cambios** aplicados al nuevo archivo, aunque **aún no se vean en los dashboards ya existentes**.  
+<!-- -------------------------------------------------- -->
+Dentro del modo de edición del dataset, **sí se reflejan los cambios** aplicados al nuevo archivo, aunque **aún no se vean en los dashboards ya existentes**. 
+<!-- -------------------------------------------------- -->
 Esto es una buena señal de que la actualización fue exitosa; solo hay que continuar con el proceso para que los dashboards también se actualicen.
 
 
@@ -369,6 +381,7 @@ Esto es una buena señal de que la actualización fue exitosa; solo hay que cont
 ## Paso 44: Refrescar
 
 Haz clic en **Refresh** abajo a la izquierda.  
+<!-- -------------------------------------------------- -->
 Esto forzará la actualización de los datos utilizados en los dashboards, haciendo que reflejen la información más reciente cargada desde el bucket S3.
 
 
@@ -395,6 +408,7 @@ Esto reemplaza los datos antiguos con los nuevos.
 ## Datos actualizados!
 
 Listo, puedes ver los cambios.  
+<!-- -------------------------------------------------- -->
 Regresa a los dashboards en QuickSight y comprueba por ti mismo que ahora muestran la información actualizada desde el nuevo archivo cargado en S3.
 
 
@@ -404,8 +418,11 @@ Regresa a los dashboards en QuickSight y comprueba por ti mismo que ahora muestr
 ## IMPORTANTE: Eliminar QuickSight para evitar costos
 
 Lo que sigue es **opcional**, pero **ALTAMENTE RECOMENDADO** si ya no vas a usar QuickSight.  
-> ⚠️ **IMPORTANTE:** QuickSight puede generar costos aunque no lo estés utilizando activamente.  
+<!-- -------------------------------------------------- -->
+> ⚠️ **IMPORTANTE:** QuickSight puede generar costos aunque no lo estés utilizando activamente.
+> <!-- -------------------------------------------------- -->
 > Para evitar cargos inesperados, asegúrate de eliminar tu cuenta si terminaste el proyecto.
+> <!-- -------------------------------------------------- -->
 > > Para evitar cargos innecesarios, asegúrate de **eliminar tu cuenta de QuickSight** y también **borrar el bucket de S3** donde subiste los datos.
 
 ---
