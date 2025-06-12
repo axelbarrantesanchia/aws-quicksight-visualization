@@ -179,30 +179,29 @@ En el menú lateral, selecciona **Datasets**.
 ## Paso 21: Crear nuevo Dataset
 
 Haz clic en **Create new dataset**.
-
-![Paso 21](quicksight-pasos/paso22.png)
-
----
-
-## Paso 22: Elegir S3 como fuente
-
 Escoge S3 entre las fuentes disponibles.
+Data source name: `Kaggle-netflix-data`.
+Copia y pega el URI de `manifest.json`.
 
-![Paso 22](quicksight-pasos/paso23.png)
+![Paso 21](quicksight-pasos/paso20.png)
+![Paso 21](quicksight-pasos/paso21.png)
+![Paso 21](quicksight-pasos/paso22.png)
+![Paso 21](quicksight-pasos/paso23.png)
 
 ---
 
-## Paso 23: Nombrar fuente de datos
 
-Data source name: `Kaggle-netflix-data`.
+## Paso 22: Nombrar fuente de datos
 
-![Paso 23](quicksight-pasos/paso24.png)
+
+
+![Paso 22](quicksight-pasos/paso24.png)
 
 ---
 
 ## Paso 24: Usar URI del manifest.json
 
-Copia y pega el URI de `manifest.json`.
+
 
 ![Paso 24](quicksight-pasos/paso25.png)
 
