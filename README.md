@@ -114,7 +114,7 @@ En la barra de búsqueda escribe “Quicksight”.
 
 Haz clic en **Sign up for QuickSight** (es gratis por 30 días).
 
-![Paso 12](quicksight-pasos/paso12.png)
+![Paso 12](quicksight-pasos/paso13.png)
 
 ---
 
@@ -122,7 +122,7 @@ Haz clic en **Sign up for QuickSight** (es gratis por 30 días).
 
 Usa tu correo de AWS. Método de autenticación: déjalo por defecto.
 
-![Paso 13](quicksight-pasos/paso13.png)
+![Paso 13](quicksight-pasos/paso14.png)
 
 ---
 
@@ -130,7 +130,7 @@ Usa tu correo de AWS. Método de autenticación: déjalo por defecto.
 
 Escoge la misma región que estás utilizando en tu consola de AWS.
 
-![Paso 14](quicksight-pasos/paso14.png)
+![Paso 14](quicksight-pasos/paso15.png)
 
 ---
 
@@ -139,7 +139,7 @@ Escoge la misma región que estás utilizando en tu consola de AWS.
 En `QuickSight account name`, coloca tu nombre + “-Quicksight”.  
 Activa solo S3 y **selecciona el bucket creado**.
 
-![Paso 15](quicksight-pasos/paso15.png)
+![Paso 15](quicksight-pasos/paso16.png)
 
 ---
 
@@ -147,7 +147,7 @@ Activa solo S3 y **selecciona el bucket creado**.
 
 Quita la selección de **AddPixelPerfect Reports** para evitar cargos.
 
-![Paso 16](quicksight-pasos/paso16.png)
+![Paso 16](quicksight-pasos/paso17.png)
 
 ---
 
@@ -155,7 +155,7 @@ Quita la selección de **AddPixelPerfect Reports** para evitar cargos.
 
 Presiona **Finish**.
 
-![Paso 17](quicksight-pasos/paso17.png)
+![Paso 17](quicksight-pasos/paso18.png)
 
 ---
 
@@ -163,7 +163,7 @@ Presiona **Finish**.
 
 Aparecerá "Creating your account...".
 
-![Paso 18](quicksight-pasos/paso18.png)
+![Paso 18](quicksight-pasos/paso19.png)
 
 ---
 
@@ -171,7 +171,7 @@ Aparecerá "Creating your account...".
 
 Una vez creada la cuenta, haz clic en **Go to QuickSight**.
 
-![Paso 19](quicksight-pasos/paso19.png)
+![Paso 19](quicksight-pasos/paso20.png)
 
 ---
 
@@ -179,7 +179,7 @@ Una vez creada la cuenta, haz clic en **Go to QuickSight**.
 
 En el menú lateral, selecciona **Datasets**.
 
-![Paso 20](quicksight-pasos/paso20.png)
+![Paso 20](quicksight-pasos/paso21.png)
 
 ---
 
@@ -187,7 +187,7 @@ En el menú lateral, selecciona **Datasets**.
 
 Haz clic en **Create new dataset**.
 
-![Paso 21](quicksight-pasos/paso21.png)
+![Paso 21](quicksight-pasos/paso22.png)
 
 ---
 
@@ -195,7 +195,7 @@ Haz clic en **Create new dataset**.
 
 Escoge S3 entre las fuentes disponibles.
 
-![Paso 22](quicksight-pasos/paso22.png)
+![Paso 22](quicksight-pasos/paso23.png)
 
 ---
 
@@ -203,7 +203,7 @@ Escoge S3 entre las fuentes disponibles.
 
 Data source name: `Kaggle-netflix-data`.
 
-![Paso 23](quicksight-pasos/paso23.png)
+![Paso 23](quicksight-pasos/paso24.png)
 
 ---
 
@@ -211,7 +211,7 @@ Data source name: `Kaggle-netflix-data`.
 
 Copia y pega el URI de `manifest.json`.
 
-![Paso 24](quicksight-pasos/paso24.png)
+![Paso 24](quicksight-pasos/paso25.png)
 
 ---
 
@@ -219,7 +219,7 @@ Copia y pega el URI de `manifest.json`.
 
 Haz clic en **Connect**.
 
-![Paso 25](quicksight-pasos/paso25.png)
+![Paso 25](quicksight-pasos/paso26.png)
 
 ---
 
