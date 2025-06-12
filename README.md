@@ -459,4 +459,10 @@ Ve a S3 y elimina el bucket para cerrar el proyecto.
 
 ¡Gracias por completar este proyecto con QuickSight!
 
-![Paso 54](quicksight-pasos/paso53.png)
+✨ Autor
+<!-- -------------------------------------------------- -->
+**Axel Andres Barrantes Anchia**
+<!-- -------------------------------------------------- -->
+📍 Santa Ana, San José
+<!-- -------------------------------------------------- -->
+📧 [axelbarrantesanchia@gmail.com](mailto:axelbarrantesanchia@gmail.com)
