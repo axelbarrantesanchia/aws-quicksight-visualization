@@ -305,6 +305,16 @@ Es necesario **añadir un archivo actualizado** que incluya esta información pa
 
 ---
 
+## Paso 34.5: Cierre provisional de uso de QuickSight
+
+Hasta este punto podríamos dar por **completado el uso básico de QuickSight**, ya que ya hemos cargado datos, creado dashboards y visualizaciones.  
+
+Sin embargo, quiero mostrar cómo se utiliza QuickSight en caso de **actualizar los datos**, lo cual es muy común en escenarios reales.  
+
+Esto incluirá cómo **refrescar o reemplazar datasets** y actualizar los **dashboards existentes** con nueva información.
+
+---
+
 ## Paso 35: Subir archivo actualizado
 
 Sube `netflix_titles_updated.json` al bucket.
