@@ -236,197 +236,205 @@ Arrástralo al área de visualización.
 
 ---
 
-## Paso 28: Añadir campo `type`
+## Paso 28: Resultado
 
-Arrástralo a la sección de **Group/Color**.
+Verás una gráfica por año.
 
 ![Paso 28](quicksight-pasos/paso28.png)
 
 ---
 
-## Paso 29: Explicación de QuickSight
+## Paso 29: Añadir campo type
 
-Ahora puedes ver por tipo (`Movie` o `TV Show`) y por año.  
-QuickSight es una herramienta de BI (Business Intelligence) de AWS que permite transformar datos crudos en dashboards interactivos para tomar decisiones basadas en datos.
+Arrástralo a la sección de **Group/Color**.
 
 ![Paso 29](quicksight-pasos/paso29.png)
 
 ---
 
-## Paso 30: Visualizaciones de ejemplo
+## Paso 30: Explicación de QuickSight
 
-Múltiples cuadros permiten analizar duración, directores, ratings, y top por país.
+Ahora puedes ver por tipo (`Movie` o `TV Show`) y por año.  
+QuickSight es una herramienta de BI (Business Intelligence) de AWS que permite transformar datos crudos en dashboards interactivos para tomar decisiones basadas en datos.
 
 ![Paso 30](quicksight-pasos/paso30.png)
 
 ---
 
-## Paso 31: Agregar nueva visualización en forma de tabla
+## Paso 31: Visualizaciones de ejemplo
+
+Múltiples cuadros permiten analizar duración, directores, ratings, y top por país.
 
 ![Paso 31](quicksight-pasos/paso31.png)
 
 ---
 
-## Paso 32: Usar campo `country` como valor
-
-Verás muchos valores vacíos.
+## Paso 32: Agregar nueva visualización en forma de tabla
 
 ![Paso 32](quicksight-pasos/paso32.png)
 
 ---
 
-## Paso 33: Notar datos incompletos
+## Paso 33: Usar campo `country` como valor
 
-Para un mejor análisis se necesita información más completa.
+Verás muchos valores vacíos.
 
 ![Paso 33](quicksight-pasos/paso33.png)
 
 ---
 
-## Paso 34: Subir archivo actualizado
+## Paso 34: Notar datos incompletos
 
-Sube `netflix_titles_updated.json` al bucket.
+Para un mejor análisis se necesita información más completa.
 
 ![Paso 34](quicksight-pasos/paso34.png)
 
 ---
 
-## Paso 35: Verificar subida
+## Paso 35: Subir archivo actualizado
+
+Sube `netflix_titles_updated.json` al bucket.
 
 ![Paso 35](quicksight-pasos/paso35.png)
 
 ---
 
-## Paso 36: Confirmar subida exitosa
+## Paso 36: Verificar subida
 
 ![Paso 36](quicksight-pasos/paso36.png)
 
 ---
 
-## Paso 37: Editar manifest.json
-
-Cambia el URI al del nuevo archivo.
+## Paso 37: Confirmar subida exitosa
 
 ![Paso 37](quicksight-pasos/paso37.png)
 
 ---
 
-## Paso 38: Refrescar navegador
+## Paso 38: Editar manifest.json
 
-Vuelve a la pestaña donde está QuickSight.
+Cambia el URI al del nuevo archivo.
 
 ![Paso 38](quicksight-pasos/paso38.png)
 
 ---
 
-## Paso 39: No se reflejan cambios aún
+## Paso 39: Refrescar navegador
+
+Vuelve a la pestaña donde está QuickSight.
 
 ![Paso 39](quicksight-pasos/paso39.png)
 
 ---
 
-## Paso 40: Ir a Datasets
-
-Ve a Data > Datasets.
+## Paso 40: No se reflejan cambios aún
 
 ![Paso 40](quicksight-pasos/paso40.png)
 
 ---
 
-## Paso 41: Editar dataset
+## Paso 41: Ir a Datasets
 
-Toca los tres puntos > Edit.
+Ve a Data > Datasets.
 
 ![Paso 41](quicksight-pasos/paso41.png)
 
 ---
 
-## Paso 42: Ver nuevos datos reflejados
+## Paso 42: Editar dataset
 
-Ahora el campo `country` tiene mejor información.
+Toca los tres puntos > Edit.
 
 ![Paso 42](quicksight-pasos/paso42.png)
 
 ---
 
-## Paso 43: Refrescar
+## Paso 43: Ver nuevos datos reflejados
 
-Haz clic en **Refresh** abajo a la izquierda.
+Ahora el campo `country` tiene mejor información.
 
 ![Paso 43](quicksight-pasos/paso43.png)
 
 ---
 
-## Paso 44: Marcar Full Refresh
+## Paso 44: Refrescar
 
-Presiona **Refresh** otra vez.
+Haz clic en **Refresh** abajo a la izquierda.
 
 ![Paso 44](quicksight-pasos/paso44.png)
 
 ---
 
-## Paso 45: Aceptar advertencia
+## Paso 45: Marcar Full Refresh
 
-Esto reemplaza los datos antiguos con los nuevos.
+Presiona **Refresh** otra vez.
 
 ![Paso 45](quicksight-pasos/paso45.png)
 
 ---
 
-## Paso 46: ¡Datos actualizados!
+## Paso 46: Aceptar advertencia
 
-Listo, puedes ver los cambios.
+Esto reemplaza los datos antiguos con los nuevos.
 
 ![Paso 46](quicksight-pasos/paso46.png)
 
 ---
 
-## Paso 47: Eliminar cuenta de QuickSight
+## Paso 47: ¡Datos actualizados!
 
-Haz clic en el ícono de perfil.
+Listo, puedes ver los cambios.
 
 ![Paso 47](quicksight-pasos/paso47.png)
 
 ---
 
-## Paso 48: Ir a Manage QuickSight
+## Paso 48: Eliminar cuenta de QuickSight
+
+Haz clic en el ícono de perfil.
 
 ![Paso 48](quicksight-pasos/paso48.png)
 
 ---
 
-## Paso 49: Ir a Account Settings
+## Paso 49: Ir a Manage QuickSight
 
 ![Paso 49](quicksight-pasos/paso49.png)
 
 ---
 
-## Paso 50: Desactivar protección y eliminar
-
-En "Account termination", escribe `confirm` y elimina la cuenta.
+## Paso 50: Ir a Account Settings
 
 ![Paso 50](quicksight-pasos/paso50.png)
 
 ---
 
-## Paso 51: Confirmación de eliminación
+## Paso 51: Desactivar protección y eliminar
 
-Verás el mensaje "Unsubscribe Successful".
+En "Account termination", escribe `confirm` y elimina la cuenta.
 
 ![Paso 51](quicksight-pasos/paso51.png)
 
 ---
 
-## Paso 52: Eliminar bucket S3
+## Paso 52: Confirmación de eliminación
 
-Ve a S3 y elimina el bucket para cerrar el proyecto.
+Verás el mensaje "Unsubscribe Successful".
 
 ![Paso 52](quicksight-pasos/paso52.png)
 
 ---
 
-## Paso 53: ¡Proyecto terminado!
+## Paso 53: Eliminar bucket S3
+
+Ve a S3 y elimina el bucket para cerrar el proyecto.
+
+![Paso 53](quicksight-pasos/paso53.png)
+
+---
+
+## Paso 54: ¡Proyecto terminado!
 
 ¡Gracias por completar este proyecto con QuickSight!
 
-![Paso 53](quicksight-pasos/paso53.png)
+![Paso 54](quicksight-pasos/paso54.png)
