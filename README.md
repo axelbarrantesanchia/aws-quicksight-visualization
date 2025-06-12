@@ -327,7 +327,10 @@ Vuelve a la pestaña donde está QuickSight.
 
 ---
 
-## Paso 40: No se reflejan cambios aún
+## Paso 40: QuickSight muestra aviso "Import complete"
+
+Verás una notificación de **"Import complete"** en QuickSight, indicando que los nuevos datos del bucket S3 fueron cargados exitosamente.  
+**Sin embargo**, esto **no actualiza automáticamente** los datos que ya están siendo utilizados en los dashboards. Aún se requiere una acción manual para reflejar los cambios en los análisis.
 
 ![Paso 40](quicksight-pasos/paso39.png)
 
@@ -359,7 +362,9 @@ Ahora el campo `country` tiene mejor información.
 
 ## Paso 44: Refrescar
 
-Haz clic en **Refresh** abajo a la izquierda.
+Haz clic en **Refresh** abajo a la izquierda.  
+Esto forzará la actualización de los datos utilizados en los dashboards, haciendo que reflejen la información más reciente cargada desde el bucket S3.
+
 
 ![Paso 44](quicksight-pasos/paso43.png)
 
@@ -381,13 +386,24 @@ Esto reemplaza los datos antiguos con los nuevos.
 
 ---
 
-## Paso 47: ¡Datos actualizados!
+## Datos actualizados!
 
-Listo, puedes ver los cambios.
+Listo, puedes ver los cambios.  
+Regresa a los dashboards en QuickSight y comprueba por ti mismo que ahora muestran la información actualizada desde el nuevo archivo cargado en S3.
+
 
 ![Paso 47](quicksight-pasos/paso46.png)
 
 ---
+## IMPORTANTE: Eliminar QuickSight para evitar costos
+
+Lo que sigue es **opcional**, pero **ALTAMENTE RECOMENDADO** si ya no vas a usar QuickSight.  
+> ⚠️ **IMPORTANTE:** QuickSight puede generar costos aunque no lo estés utilizando activamente.  
+> Para evitar cargos inesperados, asegúrate de eliminar tu cuenta si terminaste el proyecto.
+> > Para evitar cargos innecesarios, asegúrate de **eliminar tu cuenta de QuickSight** y también **borrar el bucket de S3** donde subiste los datos.
+
+---
+
 
 ## Paso 48: Eliminar cuenta de QuickSight
 
