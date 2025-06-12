@@ -121,65 +121,58 @@ Haz clic en **Sign up for QuickSight** (es gratis por 30 días).
 ## Paso 13: Llenar Contact Information
 
 Usa tu correo de AWS. Método de autenticación: déjalo por defecto.
-
-![Paso 13](quicksight-pasos/paso14.png)
-
----
-
-## Paso 14: Seleccionar región
-
 Escoge la misma región que estás utilizando en tu consola de AWS.
 
-![Paso 14](quicksight-pasos/paso15.png)
+![Paso 13](quicksight-pasos/paso14a.png)
 
 ---
 
-## Paso 15: Nombre y permisos
+## Paso 14: Nombre y permisos
 
 En `QuickSight account name`, coloca tu nombre + “-Quicksight”.  
 Activa solo S3 y **selecciona el bucket creado**.
 
-![Paso 15](quicksight-pasos/paso16.png)
+![Paso 14](quicksight-pasos/paso14.png)
 
 ---
 
-## Paso 16: Desmarcar Add-on
+## Paso 15: Desmarcar Add-on
 
 Quita la selección de **AddPixelPerfect Reports** para evitar cargos.
 
-![Paso 16](quicksight-pasos/paso17.png)
+![Paso 15](quicksight-pasos/paso15.png)
 
 ---
 
-## Paso 17: Finalizar configuración
+## Paso 16: Finalizar configuración
 
 Presiona **Finish**.
 
-![Paso 17](quicksight-pasos/paso18.png)
+![Paso 16](quicksight-pasos/paso16.png)
 
 ---
 
-## Paso 18: Esperar creación de cuenta
+## Paso 17: Esperar creación de cuenta
 
 Aparecerá "Creating your account...".
 
-![Paso 18](quicksight-pasos/paso19.png)
+![Paso 17](quicksight-pasos/paso17.png)
 
 ---
 
-## Paso 19: Ir a QuickSight
+## Paso 18: Ir a QuickSight
 
 Una vez creada la cuenta, haz clic en **Go to QuickSight**.
 
-![Paso 19](quicksight-pasos/paso20.png)
+![Paso 18](quicksight-pasos/paso18.png)
 
 ---
 
-## Paso 20: Ir a Datasets
+## Paso 19: Ir a Datasets
 
 En el menú lateral, selecciona **Datasets**.
 
-![Paso 20](quicksight-pasos/paso21.png)
+![Paso 19](quicksight-pasos/paso19.png)
 
 ---
 
