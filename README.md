@@ -191,14 +191,13 @@ Copia y pega el URI de `manifest.json`.
 
 ![Paso 21](quicksight-pasos/paso20.png)
 ![Paso 21](quicksight-pasos/paso21.png)
+![Paso 22](quicksight-pasos/paso22.png)
 
 ---
 
 ## Paso 22: Conectar
 
 Haz clic en **Connect**.
-
-![Paso 22](quicksight-pasos/paso22.png)
 
 ---
 
