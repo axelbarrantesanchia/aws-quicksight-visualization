@@ -185,81 +185,62 @@ Copia y pega el URI de `manifest.json`.
 
 ![Paso 21](quicksight-pasos/paso20.png)
 ![Paso 21](quicksight-pasos/paso21.png)
-![Paso 21](quicksight-pasos/paso22.png)
-![Paso 21](quicksight-pasos/paso23.png)
 
 ---
 
-
-## Paso 22: Nombrar fuente de datos
-
-
-
-![Paso 22](quicksight-pasos/paso24.png)
-
----
-
-## Paso 24: Usar URI del manifest.json
-
-
-
-![Paso 24](quicksight-pasos/paso25.png)
-
----
-
-## Paso 25: Conectar
+## Paso 22: Conectar
 
 Haz clic en **Connect**.
 
-![Paso 25](quicksight-pasos/paso26.png)
+![Paso 22](quicksight-pasos/paso22.png)
 
 ---
 
-## Paso 26: Visualizar
+## Paso 23: Visualizar
 
 Haz clic en **Visualize**.
 
-![Paso 26](quicksight-pasos/paso26.png)
+![Paso 23](quicksight-pasos/paso23.png)
 
 ---
 
-## Paso 27: Crear análisis
+## Paso 24: Crear análisis
 
 Aparecerá una nueva ventana, toca **Create**.
+
+![Paso 24](quicksight-pasos/paso24.png)
+
+---
+
+## Paso 25: Explorar columnas
+
+En la izquierda verás los campos del CSV como `cast`, `country`, `date_added`, etc.
+
+![Paso 28](quicksight-pasos/paso25.png)
+
+---
+
+## Paso 26: Agregar visualización
+
+Haz clic en **Add** en la sección Visuals.
+
+![Paso 29](quicksight-pasos/paso26.png)
+
+---
+
+## Paso 27: Añadir campo `release_year`
+
+Arrástralo al área de visualización.
 
 ![Paso 27](quicksight-pasos/paso27.png)
 
 ---
 
-## Paso 28: Explorar columnas
-
-En la izquierda verás los campos del CSV como `cast`, `country`, `date_added`, etc.
-
-![Paso 28](quicksight-pasos/paso28.png)
-
----
-
-## Paso 29: Agregar visualización
-
-Haz clic en **Add** en la sección Visuals.
-
-![Paso 29](quicksight-pasos/paso29.png)
-
----
-
-## Paso 30: Añadir campo `release_year`
-
-Arrástralo al área de visualización.
-
-![Paso 30](quicksight-pasos/paso30.png)
-
----
-
-## Paso 31: Resultado
+## Paso 28: Resultado
 
 Verás una gráfica por año.
 
-![Paso 31](quicksight-pasos/paso31.png)
+![Paso 31](quicksight-pasos/paso29.png)
 
 ---
 
