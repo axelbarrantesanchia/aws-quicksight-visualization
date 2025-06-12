@@ -287,7 +287,7 @@ Verás muchos valores vacíos.
 
 Para un mejor análisis se necesita información más completa.
 
-![Paso 34](quicksight-pasos/paso34.png)
+![Paso 34](quicksight-pasos/paso34a.png)
 
 ---
 
@@ -295,19 +295,19 @@ Para un mejor análisis se necesita información más completa.
 
 Sube `netflix_titles_updated.json` al bucket.
 
-![Paso 35](quicksight-pasos/paso35.png)
+![Paso 35](quicksight-pasos/paso34.png)
 
 ---
 
 ## Paso 36: Verificar subida
 
-![Paso 36](quicksight-pasos/paso36.png)
+![Paso 36](quicksight-pasos/paso35.png)
 
 ---
 
 ## Paso 37: Confirmar subida exitosa
 
-![Paso 37](quicksight-pasos/paso37.png)
+![Paso 37](quicksight-pasos/paso36.png)
 
 ---
 
@@ -315,7 +315,7 @@ Sube `netflix_titles_updated.json` al bucket.
 
 Cambia el URI al del nuevo archivo.
 
-![Paso 38](quicksight-pasos/paso38.png)
+![Paso 38](quicksight-pasos/paso37.png)
 
 ---
 
@@ -323,13 +323,13 @@ Cambia el URI al del nuevo archivo.
 
 Vuelve a la pestaña donde está QuickSight.
 
-![Paso 39](quicksight-pasos/paso39.png)
+![Paso 39](quicksight-pasos/paso38.png)
 
 ---
 
 ## Paso 40: No se reflejan cambios aún
 
-![Paso 40](quicksight-pasos/paso40.png)
+![Paso 40](quicksight-pasos/paso39.png)
 
 ---
 
@@ -337,7 +337,7 @@ Vuelve a la pestaña donde está QuickSight.
 
 Ve a Data > Datasets.
 
-![Paso 41](quicksight-pasos/paso41.png)
+![Paso 41](quicksight-pasos/paso40.png)
 
 ---
 
