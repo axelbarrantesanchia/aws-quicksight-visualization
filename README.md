@@ -308,16 +308,23 @@ Es necesario **añadir un archivo actualizado** que incluya esta información pa
 ## Paso 34.5: Cierre provisional de uso de QuickSight
 
 Hasta este punto podríamos dar por **completado el uso básico de QuickSight**, ya que ya hemos cargado datos, creado dashboards y visualizaciones.  
-
+<!-- -------------------------------------------------- -->
 Sin embargo, quiero mostrar cómo se utiliza QuickSight en caso de **actualizar los datos**, lo cual es muy común en escenarios reales.  
-
+<!-- -------------------------------------------------- -->
 Esto incluirá cómo **refrescar o reemplazar datasets** y actualizar los **dashboards existentes** con nueva información.
 
 ---
 
 ## Paso 35: Subir archivo actualizado
 
-Sube `netflix_titles_updated.json` al bucket.
+Sube el archivo `netflix_titles_updated.json` al bucket de S3.
+<!-- -------------------------------------------------- -->
+Este archivo es una versión actualizada del conjunto de datos original y **contiene los campos completos, incluyendo el campo `country`** que antes estaba incompleto. 
+<!-- -------------------------------------------------- -->
+A partir de este punto, veremos cómo reflejar esta actualización en QuickSight para que los dashboards y visualizaciones muestren la información correcta y completa.
+<!-- -------------------------------------------------- -->
+Este proceso incluye actualizar el dataset en QuickSight y refrescar los análisis para que utilicen la nueva información cargada.
+<!-- -------------------------------------------------- -->
 
 ![Paso 35](quicksight-pasos/paso34.png)
 
@@ -422,7 +429,7 @@ Esto reemplaza los datos antiguos con los nuevos.
 Listo, puedes ver los cambios.  
 <!-- -------------------------------------------------- -->
 Regresa a los dashboards en QuickSight y comprueba por ti mismo que ahora muestran la información actualizada desde el nuevo archivo cargado en S3.
-
+![Paso 46](quicksight-pasos/quicksightpasofinal.png)
 
 ![Paso 47](quicksight-pasos/paso46.png)
 
