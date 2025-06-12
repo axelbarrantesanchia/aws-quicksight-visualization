@@ -51,6 +51,7 @@ Dentro del bucket creado, haz clic en **Upload** y sube `netflix_titles.csv` y `
 Asegúrate de que ambos archivos estén cargados correctamente.
 
 ![Paso 5](quicksight-pasos/paso5.png)
+![Paso 6](quicksight-pasos/paso6.png)
 
 ---
 
@@ -58,7 +59,7 @@ Asegúrate de que ambos archivos estén cargados correctamente.
 
 Haz clic en `netflix_titles.csv` y copia su URI.
 
-![Paso 6](quicksight-pasos/paso6.png)
+![Paso 7](quicksight-pasos/paso7.png)
 
 ---
 
@@ -73,7 +74,7 @@ Reemplaza el campo `"Uri"` en `fileLocations` por el URI del paso anterior.
 > - `textQualifier`: `"\""` → se usa para indicar si los campos están entre comillas dobles.
 > - `containsHeader`: `true`
 
-![Paso 7](quicksight-pasos/paso7.png)
+![Paso 7](quicksight-pasos/paso8.png)
 
 ---
 
@@ -81,7 +82,7 @@ Reemplaza el campo `"Uri"` en `fileLocations` por el URI del paso anterior.
 
 Haz clic en **Upload** y vuelve a subir `manifest.json`.
 
-![Paso 8](quicksight-pasos/paso8.png)
+![Paso 8](quicksight-pasos/paso9.png)
 
 ---
 
@@ -89,7 +90,7 @@ Haz clic en **Upload** y vuelve a subir `manifest.json`.
 
 S3 reemplazará automáticamente el archivo anterior.
 
-![Paso 9](quicksight-pasos/paso9.png)
+![Paso 9](quicksight-pasos/paso10.png)
 
 ---
 
@@ -97,7 +98,7 @@ S3 reemplazará automáticamente el archivo anterior.
 
 Verifica el mensaje "Upload succeeded".
 
-![Paso 10](quicksight-pasos/paso10.png)
+![Paso 10](quicksight-pasos/paso11.png)
 
 ---
 
@@ -105,7 +106,7 @@ Verifica el mensaje "Upload succeeded".
 
 En la barra de búsqueda escribe “Quicksight”.
 
-![Paso 11](quicksight-pasos/paso11.png)
+![Paso 11](quicksight-pasos/paso12.png)
 
 ---
 
