@@ -345,7 +345,7 @@ Ve a Data > Datasets.
 
 Toca los tres puntos > Edit.
 
-![Paso 42](quicksight-pasos/paso42.png)
+![Paso 42](quicksight-pasos/paso41.png)
 
 ---
 
@@ -353,7 +353,7 @@ Toca los tres puntos > Edit.
 
 Ahora el campo `country` tiene mejor información.
 
-![Paso 43](quicksight-pasos/paso43.png)
+![Paso 43](quicksight-pasos/paso42.png)
 
 ---
 
@@ -361,7 +361,7 @@ Ahora el campo `country` tiene mejor información.
 
 Haz clic en **Refresh** abajo a la izquierda.
 
-![Paso 44](quicksight-pasos/paso44.png)
+![Paso 44](quicksight-pasos/paso43.png)
 
 ---
 
@@ -369,7 +369,7 @@ Haz clic en **Refresh** abajo a la izquierda.
 
 Presiona **Refresh** otra vez.
 
-![Paso 45](quicksight-pasos/paso45.png)
+![Paso 45](quicksight-pasos/paso44.png)
 
 ---
 
@@ -377,7 +377,7 @@ Presiona **Refresh** otra vez.
 
 Esto reemplaza los datos antiguos con los nuevos.
 
-![Paso 46](quicksight-pasos/paso46.png)
+![Paso 46](quicksight-pasos/paso45.png)
 
 ---
 
@@ -385,7 +385,7 @@ Esto reemplaza los datos antiguos con los nuevos.
 
 Listo, puedes ver los cambios.
 
-![Paso 47](quicksight-pasos/paso47.png)
+![Paso 47](quicksight-pasos/paso46.png)
 
 ---
 
@@ -393,19 +393,19 @@ Listo, puedes ver los cambios.
 
 Haz clic en el ícono de perfil.
 
-![Paso 48](quicksight-pasos/paso48.png)
+![Paso 48](quicksight-pasos/paso47.png)
 
 ---
 
 ## Paso 49: Ir a Manage QuickSight
 
-![Paso 49](quicksight-pasos/paso49.png)
+![Paso 49](quicksight-pasos/paso48.png)
 
 ---
 
 ## Paso 50: Ir a Account Settings
 
-![Paso 50](quicksight-pasos/paso50.png)
+![Paso 50](quicksight-pasos/paso49.png)
 
 ---
 
@@ -413,7 +413,7 @@ Haz clic en el ícono de perfil.
 
 En "Account termination", escribe `confirm` y elimina la cuenta.
 
-![Paso 51](quicksight-pasos/paso51.png)
+![Paso 51](quicksight-pasos/paso50.png)
 
 ---
 
@@ -421,7 +421,7 @@ En "Account termination", escribe `confirm` y elimina la cuenta.
 
 Verás el mensaje "Unsubscribe Successful".
 
-![Paso 52](quicksight-pasos/paso52.png)
+![Paso 52](quicksight-pasos/paso51.png)
 
 ---
 
@@ -429,7 +429,7 @@ Verás el mensaje "Unsubscribe Successful".
 
 Ve a S3 y elimina el bucket para cerrar el proyecto.
 
-![Paso 53](quicksight-pasos/paso53.png)
+![Paso 53](quicksight-pasos/paso52.png)
 
 ---
 
@@ -437,4 +437,4 @@ Ve a S3 y elimina el bucket para cerrar el proyecto.
 
 ¡Gracias por completar este proyecto con QuickSight!
 
-![Paso 54](quicksight-pasos/paso54.png)
+![Paso 54](quicksight-pasos/paso53.png)
