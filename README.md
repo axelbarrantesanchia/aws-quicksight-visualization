@@ -285,7 +285,10 @@ Verás muchos valores vacíos.
 
 ## Paso 34: Notar datos incompletos
 
-Para un mejor análisis se necesita información más completa.
+Para un mejor análisis se necesita información más completa.  
+El archivo original `netflix_titles.csv` **no contiene todos los campos con datos completos**, y por eso el campo `country` aparece con muchos valores vacíos.  
+Es necesario **añadir un archivo actualizado** que incluya esta información para mejorar la calidad del análisis.
+
 
 ![Paso 34](quicksight-pasos/paso34a.png)
 
@@ -354,7 +357,10 @@ Toca los tres puntos > Edit.
 
 ## Paso 43: Ver nuevos datos reflejados
 
-Ahora el campo `country` tiene mejor información.
+Ahora el campo `country` tiene mejor información.  
+Dentro del modo de edición del dataset, **sí se reflejan los cambios** aplicados al nuevo archivo, aunque **aún no se vean en los dashboards ya existentes**.  
+Esto es una buena señal de que la actualización fue exitosa; solo hay que continuar con el proceso para que los dashboards también se actualicen.
+
 
 ![Paso 43](quicksight-pasos/paso42.png)
 
