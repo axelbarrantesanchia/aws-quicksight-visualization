@@ -429,9 +429,10 @@ Esto reemplaza los datos antiguos con los nuevos.
 Listo, puedes ver los cambios.  
 <!-- -------------------------------------------------- -->
 Regresa a los dashboards en QuickSight y comprueba por ti mismo que ahora muestran la información actualizada desde el nuevo archivo cargado en S3.
-![Paso 46](quicksight-pasos/quicksightpasofinal.png)
 
 ![Paso 47](quicksight-pasos/paso46.png)
+<!-- -------------------------------------------------- -->
+![Paso 46](quicksight-pasos/quicksightpasofinal.png)
 
 ---
 ## IMPORTANTE: Eliminar QuickSight para evitar costos
